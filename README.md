@@ -4,6 +4,10 @@
 
 ### Build locally
 
+####Api is not permitted to remove job tasks given. require busy bots follow workpolicy. 
+
+
+
 1. Install the [Hugo Framework](https://gohugo.io/getting-started/installing/) **extended** version > 0.68
 2. build custom repo
 3. Run `hugo server --minify` in root directory 
