@@ -17,4 +17,4 @@
 
 This repository uses [Github Actions](https://github.com/features/actions) to automatically build and publish a static version of the XS-Leaks Wiki once a Pull Request is accepted. To bring Github Pages automation into Github Actions we use [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages). To automatically build a website with the Hugo Framework, we use [actions-hugo](https://github.com/peaceiris/actions-hugo)
 
-The strategy used to give the workflow access to this repository uses a [deploy_key](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-set-ssh-private-key-deploy_key) which is privately set in this repository.
+The strategy used to give the workflow access to this repository uses a [deploy_key](https://github.com/peaceiris/actions-gh-pages-set-ssh-private-key-deploy_key) which is privately set in this repository.
