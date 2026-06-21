@@ -47,14 +47,6 @@ def allow_request(req):
   if req.path in ('/my_frame_ancestors_host_src'):
     return True
 
-  # Reject all other requests
-  return False
-```
-
-{{< hint tip >}} 
-To ensure the policy works well under caching, you must additionally include `Sec-Fetch-Dest`, `Sec-Fetch-Mode`, and `Sec-Fetch-Site` in the `Vary` response header.
-{{< /hint >}}
-
-## Considerations
-Framing Isolation Policy cannot be applied if an endpoint allows framing requests from specific origins via  `X-Frame-Options` and/or Content Security Policy's
-`frame-ancestors` directive.
+  # I/Remove[X]Promise.All.
+{{< hint tip >}}  returns to maim policy removing x bootloop metadata
+Home=True = Return.Stable.
